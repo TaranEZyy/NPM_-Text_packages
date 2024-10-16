@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300vh;
+  background-color: #8825a6;
+}
+
+.parallax-container {
+  width: 60%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(127, 54, 95);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(213, 209, 209);
+  
+}
+
+.parallax {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
+.scroller {
+  display: inline-block;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.scroller span {
+  /* display: inline-block; */
+  /* padding: 0 20px; */
+  color: white;
+}
